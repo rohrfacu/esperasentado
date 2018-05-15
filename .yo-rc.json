@@ -1,0 +1,10 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "4.11.1",
+    "baseName": "esperasentado",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "enableTranslation": false,
+    "clientPackageManager": "yarn"
+  }
+}
