@@ -65,7 +65,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
                 fallback: 'style-loader',
                 use: ['css-loader']
             })
-        }]
+        },{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }]
     },
     plugins: [
         extractCSS,
