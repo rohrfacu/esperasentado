@@ -23,7 +23,6 @@ import {
     JhiConfigurationService,
     JhiHealthService,
     JhiMetricsService,
-    LogsService,
     UserResolvePagingParams,
     UserResolve,
     UserModalService
@@ -61,7 +60,6 @@ import {
         JhiConfigurationService,
         JhiHealthService,
         JhiMetricsService,
-        LogsService,
         UserResolvePagingParams,
         UserResolve,
         UserModalService
